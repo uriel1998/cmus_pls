@@ -21,5 +21,9 @@ Note that CMus overwrites the playlist upon exit.  Which is fine for me...
 but to avoid problems, the script detects that so you don't have unexpected
 behavior.
 
+First argument is a path to where the playlists are located;  if there is no
+argument, the current directory is used.  This script OVERWRITES whatever
+playlist is in ~/.cmus/playlist.pl
+
 Licensed under a Creative Commons BY-SA 3.0 Unported license
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/.
