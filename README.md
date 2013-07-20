@@ -25,5 +25,10 @@ First argument is a path to where the playlists are located;  if there is no
 argument, the current directory is used.  This script OVERWRITES whatever
 playlist is in ~/.cmus/playlist.pl
 
+Updated with Lizzy support:  http://sourceforge.net/projects/lizzy/?source=dlp
+Lizzy lets you use any type of playlist instead of just PLS formats
+You should be able to use this as-is without Lizzy existing, you'll just be limited
+to PLS conversion.  Please note that you must manually set lizzyroot in this script.
+
 Licensed under a Creative Commons BY-SA 3.0 Unported license
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/.
