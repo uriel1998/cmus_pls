@@ -94,7 +94,7 @@ else
 					else
 						name=$(basename "$fileName")
 					fi				    				    	
-					grep $name -e "File" | awk -F "=" '{print $2}' | awk '{ gsub("file:///","/"); print $1 }'  > $HOME/.cmus/playlist.pl
+					grep $name -e "File" | awk -F "=" '{print $2}' |  sed 's/ /%20/g' | awk '{ gsub("file:///","/"); print $1 }'  > $HOME/.cmus/playlist.pl
 				    break
 				    fi
 				done

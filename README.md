@@ -30,5 +30,7 @@ Lizzy lets you use any type of playlist instead of just PLS formats
 You should be able to use this as-is without Lizzy existing, you'll just be limited
 to PLS conversion.  Please note that you must manually set lizzyroot in this script.
 
+Updated because %20 is not needed in file line
+
 Licensed under a Creative Commons BY-SA 3.0 Unported license
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/.
